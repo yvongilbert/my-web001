@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <title>My first website</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />   
+   
+   </head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="images/logo.PNG"></a>
+        <div class="nav-links" id="navlinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about us.html">ABOUT</a></li>
+                <li><a href="courses.html">COURSE</a></li>
+                <li><a href="Blog.html">BLOG</a></li>
+                <li><a href="Contact.html">CONTACT</a></li>
+            </ul>
+
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+   <h1>Our certificate and online class for 2024</h1>
+</section>
+
+<!---blog content-->
+
+<section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+            <img src="images/certificate.jpg">
+            <h2>Our certificate and online class for 2024</h2>
+            <p>here are many variations of passages of Lorem Ipsum 
+                available, but the majority have</p> <br>
+
+                <p>suffered alteration in some form, 
+                by injected humour, or randomised words which don't look 
+                even slightly believable. 
+                If you are going to use a passage of Lorem Ipsum,
+                you need to be sure there isn't 
+                anything embarrassing hidden in the
+                middle of text. All the Lorem 
+                Ipsum generators on the Internet tend to 
+                repeat predefined chunks as necessary, making
+                this the first true generator on the Internet. 
+                It uses a dictionary of over 200 Latin words, 
+                combined with a handful of model sentence structures, to generate 
+                Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is 
+                therefore always free from repetition, injected humour, 
+                or non-characteristic words etc.</p>
+
+                <br>
+
+            <p>here are many variations of passages of Lorem Ipsum 
+                available, but the majority have
+                suffered alteration in some form, 
+                by injected humour<br> or randomised words which don't look 
+                even slightly believable. 
+                If you are going to use a passage of Lorem Ipsum,
+                you need to be sure there isn't 
+                anything embarrassing hidden in the
+                middle of text. All the Lorem 
+                Ipsum generators on the Internet tend to 
+                repeat<br>predefined chunks as necessary, making
+                this the first true generator on the Internet. 
+                It uses a dictionary of over 200 Latin words, 
+                combined with a handful of model sentence structures, to generate 
+                Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is 
+                therefore always free from repetition, injected humour, 
+                or non-characteristic words etc.<p>
+
+                    <div class="comment-box">
+
+                        <h3>Leave a comment </h3>
+                        <form class="comment-form">
+                            <input type="text" placeholder="Enter Name">
+                            <input type="email" placeholder="Enter Email">
+                            <textarea rows="5" placeholder="Your Comment">
+                            </textarea>
+                                <button type="submit" class="hello-dior red-dior">POST COMMENT</button>
+
+                        </form>
+                    </div>
+        </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Computer Sciences</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Cloud Computing</span>
+                    <span>43</span>
+                </div>
+                <div>
+                    <span>Machine learning</span>
+                    <span>9</span>
+                </div>
+                <div>
+                    <span>Deep Learning</span>
+                    <span>58</span>
+                </div>
+                <div>
+                    <span>Civil Engineering</span>
+                    <span>49</span>
+                </div>
+            </div>
+
+    </div>
+            
+
+
+
+
+</section>
+
+
+
+
+    
+
+
+
+<!---Footer---->
+
+<section class="Footer">
+    <h4>About Us</h4>
+    <p>It is a long established fact that 
+        a reader will be distracted 
+        by the readable <br> content of a 
+        page when looking at its layout</p>
+    
+    <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-x-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-youtube"></i>
+        <i class="fa-brands fa-tiktok"></i>
+    </div>
+    <p>Made with <i class="fa-solid fa-cloud-bolt"></i> by Yg </p>
+</section>
+
+
+
+
+
+
+
+
+
+<!-----------javaScript for Toggle Menu------>
+<script>
+
+    var navlinks = document.getElementById("navlinks");
+
+    function showMenu(){
+        navlinks.style.right = "0";
+    }
+    function hideMenu(){
+        navlinks.style.right = "-200px"
+    }
+</script>
+
+</body>
+
+</html>
+        

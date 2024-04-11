@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <title>My first website</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />   
+   
+   </head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="images/logo.PNG"></a>
+        <div class="nav-links" id="navlinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about us.html">ABOUT</a></li>
+                <li><a href="courses.html">COURSE</a></li>
+                <li><a href="Blog.html">BLOG</a></li>
+                <li><a href="Contact.html">CONTACT</a></li>
+            </ul>
+
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+   <h1>Contact Us</h1>
+
+<!---contact us-->
+<section class="location">
+    
+    
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13774.307316660956!2d76.44472844999999!3d30.334552399999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1706642026414!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+</section>
+
+<section class="contact-us">
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="fa-solid fa-house-chimney"></i>
+                <span>
+                    <h5>MIG PhaseI </h5>
+                    <p>Punjab, Patiala </p>
+
+                </span>
+            </div>
+            <div>
+                <i class="fa-solid fa-phone"></i>
+                <span>
+                    <h5>7657923576 </h5>
+                    <p>Monday to Saturday 24h/7 </p>
+
+                </span>
+            </div>
+            <div>
+                <i class="fa-solid fa-envelope"></i>
+                <span>
+                    <h5>yg@kabaye.com </h5>
+                    <p>Leave your email</p>
+
+                </span>
+            </div>
+
+        </div>
+        <div class="contact-col">
+            <form action="form handler.Php" method="post">
+               <input type="text" name="name"placeholder="Enter Your Name"Required>
+               <input type="email" name="email" placeholder="Enter email address"Required>
+               <input type="text" name="Subject" placeholder="Enter Your Subject"Required>
+               <textarea rows="8" name="message" placeholder="Message"Required></textarea>
+               <button type="submit" class="hello-dior red-dior">Send Message </button>
+            </form>
+        </div>
+    </div>
+    
+</section>
+
+<!---Footer---->
+
+<section class="Footer">
+    <h4>About Us</h4>
+    <p>It is a long established fact that 
+        a reader will be distracted 
+        by the readable <br> content of a 
+        page when looking at its layout</p>
+    
+    <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-x-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-youtube"></i>
+        <i class="fa-brands fa-tiktok"></i>
+    </div>
+    <p>Made with <i class="fa-solid fa-cloud-bolt"></i> by Yg </p>
+</section>
+
+
+
+
+
+
+
+
+
+<!-----------javaScript for Toggle Menu------>
+<script>
+
+    var navlinks = document.getElementById("navlinks");
+
+    function showMenu(){
+        navlinks.style.right = "0";
+    }
+    function hideMenu(){
+        navlinks.style.right = "-200px"
+    }
+</script>
+
+</body>
+
+</html>
+        
